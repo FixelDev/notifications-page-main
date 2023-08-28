@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/notifications-page-main/static/css/main.c5887f0c.css",
+    "main.js": "/notifications-page-main/static/js/main.12219f38.js",
+    "index.html": "/notifications-page-main/index.html",
+    "main.c5887f0c.css.map": "/notifications-page-main/static/css/main.c5887f0c.css.map",
+    "main.12219f38.js.map": "/notifications-page-main/static/js/main.12219f38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5887f0c.css",
+    "static/js/main.12219f38.js"
+  ]
+}
