@@ -1,0 +1,156 @@
+@import './config.module';
+@import './utilities';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    background-color: $very-light-grayish-blue;
+}
+
+main{
+    background-color: $very-light-grayish-blue;
+}
+
+a{
+    color: $dark-grayish-blue;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+a:hover{
+    color: $blue;
+}
+
+
+.notification-panel{
+    background-color: #fff;
+    max-width: 720px;
+    padding: 1.5em 1em;
+}
+
+.notification-panel-header{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.notification-panel-title{
+    align-items: center;
+
+    h1{
+        font-size: 1.3rem;
+    }
+
+    .notifications-counter{
+        font-weight: 800;
+        background-color: $blue;
+        color: $very-light-grayish-blue;
+        margin-left: 0.5em;
+        padding: 0.2em 0.8em;
+        border-radius: 0.4em;
+    }
+}
+
+.mark-all-read-btn{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    color: $dark-grayish-blue;
+    font-size: 0.9em;
+}
+
+.mark-all-read-btn:hover{
+    color: $blue;
+    cursor: pointer;
+}
+
+.notification{
+    border-radius: 0.6em;
+    margin-bottom: 1em;
+    padding: 1em 1.1em;
+
+    .notification-content
+    {
+        width: 100%;
+    }
+
+    .notification-content:has(.link-photo){
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lead{
+        color: $dark-grayish-blue;
+    }
+    
+    .unread-mark{
+        display: inline-block;
+        border-radius: 50%;
+        background-color: $red;
+        width: 0.6em;
+        height: 0.6em;
+        margin-left: 0.5em;
+    }
+
+    .notification-age{
+        color: $grayish-blue;
+    }
+
+    .notification-user-avatar{
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 1.1em;
+    }
+
+    .notification-user{
+        margin-right: 0.5em;
+        color: $very-dark-blue;
+    }
+
+    .notification-user:hover{
+        color: $blue;
+    }
+
+    .notification-age
+    {
+        margin-top: 0.2em;
+    }
+}
+
+.message-box{
+    .message-box-content{
+        margin-top: 1em;
+        padding: 1em;
+        font-weight: 500;
+        color: $dark-grayish-blue;
+        border: 1px solid $light-grayish-blue-two;
+        border-radius: 0.4em;
+    }   
+}
+
+.message-box:hover{
+    .message-box-content{
+        background-color: $light-grayish-blue-two;
+    }
+}
+
+.link-photo{
+    .link-photo-content{
+        width: 3em;
+        height: 3em;
+        margin-left: 0.5em;
+    }
+}
+
+footer{
+    display: none;
+}
+
+@import './media';

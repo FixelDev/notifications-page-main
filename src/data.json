@@ -1,0 +1,97 @@
+[
+    {
+        "id": 0,
+        "user": "Mark Webber",
+        "avatar": "avatar-mark-webber.webp",
+        "age": "1m",
+        "isUnread":true,
+        "content":{
+            "type":"link",
+            "text":"reacted to your recent post",
+            "link":"#",
+            "linkText":"My first tournamet today!"
+        }
+    },
+    {
+        "id": 1,
+        "user": "Angela Gray",
+        "avatar": "avatar-angela-gray.webp",
+        "age": "5m",
+        "isUnread":true,
+        "content":{
+            "type":"base",
+            "text":"followed you"
+        }
+    },
+    {
+        "id": 2,
+        "user": "Jacob Thompson",
+        "avatar": "avatar-jacob-thompson.webp",
+        "age": "1 day",
+        "isUnread":true,
+        "content":{
+            "type":"link",
+            "text":"has joined your group",
+            "link":"#",
+            "linkText":"Chess Club"
+        }
+    },
+    {
+        "id": 3,
+        "user": "Rizky Hasanuddin",
+        "avatar": "avatar-rizky-hasanuddin.webp",
+        "age": "5 days",
+        "isUnread":false,
+        "content":{
+            "type":"base",
+            "text":"sent you a private message"
+        },
+        "additionalContent":{
+            "type":"messageBox",
+            "link":"#",
+            "text":"Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+        }
+    },
+    {
+        "id": 4,
+        "user": "Kimberly Smith",
+        "avatar": "avatar-kimberly-smith.webp",
+        "age": "1 week",
+        "isUnread":false,
+        "content":{
+            "type":"base",
+            "text":"commented on your picture"
+        },
+        "additionalContent":{
+            "type":"linkPhoto",
+            "link":"#",
+            "photoName":"image-chess.webp"
+        }
+    },
+    {
+        "id": 5,
+        "user": "Nathan Peterson",
+        "avatar": "avatar-nathan-peterson.webp",
+        "age": "2 weeks",
+        "isUnread":false,
+        "content":{
+            "type":"link",
+            "text":"reacted to your recent post",
+            "link":"#",
+            "linkText":"5 end-game strategies to increase your win rate"
+        }
+    },
+    {
+        "id": 6,
+        "user": "Anna Kim",
+        "avatar": "avatar-anna-kim.webp",
+        "age": "2 weeks",
+        "isUnread":false,
+        "content":{
+            "type":"link",
+            "text":"left the group",
+            "link":"#",
+            "linkText":"Chess Club"
+        }
+    }
+]
